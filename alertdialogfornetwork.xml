@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/cry"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Internet"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Please Check Internet Connection"
+        android:textSize="22sp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/okaybtn"
+        android:background="#03a9f4"
+        android:layout_margin="40dp"
+        android:text="Okay"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#fff"/>
+
+
+
+</LinearLayout>
